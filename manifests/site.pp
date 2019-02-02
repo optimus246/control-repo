@@ -1,7 +1,5 @@
 node default {
-	file {'/root/READ':
-		ensure  => file,
-		content => 'Hello World blah blah blah',
-		owner   => 'frisch246',
-	}
+}
+node 'master.puppet.com' {
+  include role::master_server
 }
