@@ -1,6 +1,6 @@
 node default {
 	file {'/root/READ':
 		ensure => file,
-		content => 'Hello World',
+		content => 'Hello World blah blah blah',
 	}
 }
