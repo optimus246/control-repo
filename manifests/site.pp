@@ -1,6 +1,7 @@
 node default {
 	file {'/root/READ':
-		ensure => file,
+		ensure  => file,
 		content => 'Hello World blah blah blah',
+		owner   => 'frisch',
 	}
 }
