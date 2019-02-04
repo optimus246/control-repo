@@ -9,3 +9,6 @@ node /^web/ {
 node /^db/ {
   include role::db_server
 }
+node 'nagios.puppet.com' {
+  include profile::base
+}
